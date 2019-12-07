@@ -1,0 +1,46 @@
+{
+	"name": "Reachable",
+	"version": "1.0",
+	"description": "macro copy/paste",
+	"permissions": [
+		"storage",
+		"activeTab",
+		"clipboard",
+		"tabs",
+		"http*://*/*"
+	],
+	"options_page": "options.html",
+	"background": {
+		"scripts": ["reachable.js"],
+		"persistent": false
+	},
+	"content_scripts": [{
+		"matches": ["http://*/*", "https://*/*"],
+		"css": ["styles.css"],
+		"js": ["reachable.js"]
+	}],
+	"commands": {
+		"paste_1" : {
+			"suggested_key": {
+				"default": "Ctrl+Shift+1"
+			},
+			"description": "paste data",
+			"global": true
+		},
+		"paste_2" : {
+			"suggested_key": {
+				"default": "Ctrl+Shift+2"
+			},
+			"description": "paste data",
+			"global": true
+		},
+		"paste_3" : {
+			"suggested_key": {
+				"default": "Ctrl+Shift+3"
+			},
+			"description": "paste data",
+			"global": true
+		}
+	},
+	"manifest_version": 2
+}
