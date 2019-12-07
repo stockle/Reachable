@@ -1,6 +1,7 @@
-input[type=text] {
-	resize:both;
+textarea {
+	min-height: 5em;
+	max-height: 50vh;
+	width: 100%;
 }
 
-input[type=submit] {
-}
+input[type=submit] {}
