@@ -1,7 +1,9 @@
 # Reachable
 Last year for LinkedIn Reach I wrote a LaTeX doc to answer the questions thinking I would have to submit a file.
 
-Well they only accept the first 400 apps and those go quick.
+It ended up being three separate text fields.
+
+They only accept the first 400 apps and those go quick.
 
 Lost 5 minutes copy and pasting.
 
